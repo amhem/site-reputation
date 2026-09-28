@@ -155,7 +155,7 @@ const App: React.FC = () => {
         {(status === AuditStatus.IDLE || status === AuditStatus.ERROR) && (
           <div className="text-center py-24 animate-in fade-in duration-1000">
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-medium leading-relaxed opacity-80">
-              Rigorous behavioral audit of site safety, infrastructure health, and threat classification records.
+              Check platform reputation, security, health
             </p>
             <form onSubmit={handleAudit} className="max-w-2xl mx-auto">
               <div className="relative flex items-stretch bg-slate-900/60 rounded-2xl border border-slate-700/40 shadow-2xl overflow-hidden backdrop-blur-xl">
