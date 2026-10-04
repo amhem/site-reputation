@@ -1,19 +1,7 @@
-# 0. Check Node.js + npm
-node --version
-npm --version
-
-# 1. Install Node.js + npm
-# Fedora
-sudo dnf install -y nodejs npm
-
-# Ubuntu / Debian
-sudo apt update && sudo apt install -y nodejs npm
-
-# 2. Go to the downloaded folder
-cd ~/Downloads/site-reputation
-
-# 3. Install the app requirements
-npm install
-
-# 4. Start the app
-npm run dev
+| Linux | Windows |
+|---|---|
+| `node --version && npm --version` | `node --version && npm --version` |
+| `sudo dnf install -y nodejs npm` | `winget install OpenJS.NodeJS.LTS` |
+| `cd ~/Downloads/site-reputation` | `cd %USERPROFILE%\Downloads\site-reputation` |
+| `npm install` | `npm install` |
+| `npm run dev` | `npm run dev` |
