@@ -1,6 +1,6 @@
-# Site Reputation - Frontend Only
+## Site Reputation - Frontend Only
 
-This version does not use nAI, Node/Express, API keys, or any backend.
+This version does not use AI, Node/Express, API keys, or any backend.
 
 | Linux | Windows |
 |---|---|
@@ -12,10 +12,8 @@ This version does not use nAI, Node/Express, API keys, or any backend.
 
 Upload the contents of `dist/` to any static host, including GitHub Pages.
 
-## Add or change reputation records
+### Add or change reputation records
 
-Edit:
-
-`data/reputation.ts`
+Edit: `data/reputation.ts`
 
 Unknown domains are marked **Unverified** and return manual-check links instead of pretending a live scan occurred.
